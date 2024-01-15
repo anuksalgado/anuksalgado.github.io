@@ -12,6 +12,8 @@ module.exports = {
         playfairExtraBold: ['PlayFair Display', 'serif', 'ExtraBold']
       },
       colors: {
+        'custom-yellow':'#BAA333',
+        'cream-white' :'#FFF8E1',
         cyan: {
           50: '#e0f7fa',
           100: '#b2ebf2',

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
 
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
@@ -446,6 +446,10 @@ video {
   display: none;
 }
 
+html {
+  font-family: 'Playfair Display', serif;
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -594,10 +598,6 @@ video {
   width: 100vw;
 }
 
-.w-1\/2{
-  width: 50%;
-}
-
 .border-collapse{
   border-collapse: collapse;
 }
@@ -608,6 +608,14 @@ video {
 
 .resize{
   resize: both;
+}
+
+.list-inside{
+  list-style-position: inside;
+}
+
+.list-decimal{
+  list-style-type: decimal;
 }
 
 .flex-col{
@@ -693,6 +701,10 @@ video {
   --tw-gradient-to: #0d47a1 var(--tw-gradient-to-position);
 }
 
+.pl-3{
+  padding-left: 0.75rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -739,9 +751,24 @@ video {
   color: rgb(100 181 246 / var(--tw-text-opacity));
 }
 
+.text-cream-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 248 225 / var(--tw-text-opacity));
+}
+
+.text-custom-yellow{
+  --tw-text-opacity: 1;
+  color: rgb(186 163 51 / var(--tw-text-opacity));
+}
+
 .text-cyan-300{
   --tw-text-opacity: 1;
   color: rgb(77 208 225 / var(--tw-text-opacity));
+}
+
+.text-yellow-100{
+  --tw-text-opacity: 1;
+  color: rgb(254 249 195 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -794,7 +821,4 @@ video {
 
 .outline{
   outline-style: solid;
-}
-
-.header-design{
 }
