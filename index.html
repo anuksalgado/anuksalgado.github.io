@@ -6,7 +6,7 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="/public/output.css">
 </head>
-<body  class="bg-gradient-to-t from-blue-950 to-blue-900 h-screen">
+<body  class="bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900">
   
   <div id="header" class="h-screen w-screen">
     <div class="flex w-screen justify-center">
@@ -15,8 +15,10 @@
     </div>
     <hr>
     <div>
+      <br>
       <h2 class="text-3xl text-cream-white">About me</h2>
-      <p class="text-cream-white"> My Name is Anuk! I am 23 years old and I am an undergraduate software-engineer studying in Curtin University in Bentley, Perth in Australia. </p>
+      <p class="text-cream-white"> My Name is Anuk! I am 23 years old and I am an undergraduate software-engineer studying in Curtin University in Bentley, Perth in Australia.</p> <br>
+      <hr><br>
     </div>
     <div id="Languages">
       <p class="text-cream-white">These are the programming languages I am proficient with:</p>
@@ -30,13 +32,24 @@
     </div>
     <br>
     <div>
-      <p class="text-cream-white font-playfairExtraBold">Feel free to check my Github and LinkedIn page below!</p>
-      <div id="Github">
-        <a class="text-cream-white" href="https://github.com/anuksalgado" target="_blank">
-          Github
-        </a>
-      </div>
     </div>
+    <section id="BottomPage">
+      <div class="bg-slate-50 absolute inset-x-0 bottom-0 h-18">
+          <footer>
+            <figure>
+              <a href="https://github.com/anuksalgado" target="_blank"  class="inline-block">
+                <img src="images/github.png" alt="Github logo" width="50px" height="50px">
+              </a>
+              <a href="https://www.linkedin.com/in/anuk-salgado" target="_blank"  class="inline-block">
+                <img src="images/LinkedIn.png" alt="LinkedIn logo" width="50px" height="50px">
+              </a>
+              <a class="inline-block">
+                <img src="images/email.png" alt="email logo" width="50px" height="60px">
+              </a>
+            </figure>
+          </footer>
+      </div>
+    </section>
   </div>
 </body>
 </html>
