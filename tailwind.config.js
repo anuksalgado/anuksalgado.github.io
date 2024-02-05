@@ -8,8 +8,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
+        'poppins': ['Poppins', 'sans-serif'],
         playfair: ['PlayFair Display', 'serif'],
         playfairExtraBold: ['PlayFair Display', 'serif', 'ExtraBold']
+      },
+      fontWeight: {
+        'normal': 400,
+        'semibold': 600,
+        'bold': 700,
+        'extrabold': 800,
       },
       colors: {
         'custom-yellow':'#BAA333',

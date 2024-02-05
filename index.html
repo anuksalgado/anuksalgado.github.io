@@ -5,14 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="/public/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
+
 </head>
 <body  class="bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900">
   
   <div id="mainBody" class="h-screen w-screen">
     <div class="flex w-screen justify-center">
       <header>
-        <div><h1 class="text-cyan-300 text-4xl font-playfairExtraBold">My Portfolio! <br> <br></h1>
+        <div><h1 class="text-cyan-300 text-4xl font-poppins font-extrabold">My Portfolio! </h1>
         </div>
+        <div class="">
+          <img src="images/Anuk.PNG" alt="anuk-salgado" class="" width="190px" height="100px">
+      </div>
       </header>
     </div>
       
@@ -20,26 +27,28 @@
     <main>
       <div>
         <br>
-        <h2 class="text-3xl text-cream-white">About me</h2>
-        <p class="text-cream-white"> My Name is Anuk! I am 23 years old and I am an undergraduate software-engineer studying in Curtin University in Bentley, Perth in Australia.</p> <br>
+        <h2 class="text-3xl text-cream-white font-poppins font-semibold">About me</h2>
+        <p class="text-cream-white font-poppins font-normal"> My Name is Anuk! I'm 23 years old and I'm currently an undergraduate software-engineer studying in Curtin University in Bentley, Perth in Australia.</p> <br>
         <hr><br>
       </div>
-      <div id="Languages">
-        <p class="text-cream-white">These are the programming languages I am proficient with:</p>
-        <ol class="list-inside list-decimal text-cream-white pl-3">
-          <li>Java</li>
-          <li>Python</li>
-          <li>C#</li>
-          <li>Javascript</li>
-          <li>HTML/CSS</li>
-        </ol>
-      </div>
+      <div id="Languages and image" class="relative flex justify-between items-center">
+        <div>
+            <p class="text-cream-white font-poppins font-semibold">These are the programming languages I am proficient with:</p>
+            <ol class="list-inside list-decimal text-cream-white pl-3 font-poppins font-normal">
+                <li>Java</li>
+                <li>Python</li>
+                <li>C#</li>
+                <li>Javascript</li>
+                <li>HTML/CSS</li>
+            </ol>
+        </div>
+    </div>
       <br>
     </main>
     
     <footer>
       <section id="BottomPage">
-        <div class="bg-slate-50 absolute inset-x-0 bottom-0 h-18">
+        <div class="bg-slate-50 absolute inset-x-0 bottom-0 h-18 flex justify-center">
               <figure>
                 <a href="https://github.com/anuksalgado" target="_blank"  class="inline-block">
                   <img src="images/github.png" alt="Github logo" width="50px" height="50px">
