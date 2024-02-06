@@ -987,16 +987,16 @@ html {
   font-weight: 800;
 }
 
-.font-semibold{
-  font-weight: 600;
+.font-extralight{
+  font-weight: 200;
 }
 
 .font-normal{
   font-weight: 400;
 }
 
-.font-extralight{
-  font-weight: 200;
+.font-semibold{
+  font-weight: 600;
 }
 
 .italic{
